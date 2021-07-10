@@ -5,20 +5,22 @@
     <link rel="stylesheet" href="src/style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Hajed Khlifi</title>
 </head>
 <body>
+
     <section class="hero">
         <nav>
              <img class="logo" src="src/img/Logo.png" alt="Hajed khlifi logo " /> 
             <ul id="nav-list">
-                <li><a href="#skillsSet"><strong>Skills Set</strong></a></li>
-                <li><a href="#projects"><strong>Projects</strong></a></li>
-                <li><a href="#contact"><strong>Contact</strong></a></li>
+                <li><a onclick="alertNotReady()" href="#skillsSet"><strong>Skills Set</strong></a></li>
+                <li><a onclick="alertNotReady()"  href="#projects"><strong>Projects</strong></a></li>
+                <li><a onclick="alertNotReady()"  href="#contact"><strong>Contact</strong></a></li>
             </ul>
             <button class="hamburger" id ="hamburger">
-               <i class="fas fa-bars"></i>
+               <i class="fa fa-bars"></i>
             </button>
         </nav>
         <div class="hero-area">
@@ -68,6 +70,7 @@
         </div>
    
     </section>
+    <!--
     <section class="sub-section" id="skillsSet">
         <div class="information">
             
@@ -116,7 +119,11 @@
        
     </footer>
     
-
+    <a id="goUp" class="float" onclick="topFunction()">      
+        <strong> Go Up</strong></a>
+    -->
     <script src="src/app.js"></script>
+
 </body>
 </html>
+
